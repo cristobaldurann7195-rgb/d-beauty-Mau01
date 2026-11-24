@@ -1,0 +1,7 @@
+# Sistema y temporales
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+test.txt
+assets/catalog.json

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D-BEAUTY — Insumos & Mobiliario de Belleza Profesional</title>
+  <meta name="description" content="Distribuidora mayorista y menudeo de insumos y mobiliario de belleza: Lashes, Brows, Uñas, Cabello, Mobiliario y Skincare. Entregas el mismo día y envíos nacionales.">
+  
+  <!-- Tipografías de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Catálogo de datos offline -->
+  <script src="data/catalog.js"></script>
+</head>
+<body>
+
+  <!-- Barra Superior de Avisos -->
+  <aside class="announcement-bar" id="announcementBar">
+    <div class="announcement-content">
+      <svg class="icon-inline" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+        <path d="M12 2l2.4 7.4h7.6l-6.1 4.5 2.3 7.1-6.2-4.4-6.2 4.4 2.3-7.1-6.1-4.5h7.6z"/>
+      </svg>
+      <span id="announcementText">Precios especiales de mayoreo para dueñas de salón • Entregas locales el mismo día</span>
+      <svg class="icon-inline" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+        <path d="M12 2l2.4 7.4h7.6l-6.1 4.5 2.3 7.1-6.2-4.4-6.2 4.4 2.3-7.1-6.1-4.5h7.6z"/>
+      </svg>
+    </div>
+  </aside>
+
+  <!-- Encabezado Principal -->
+  <header class="site-header">
+    <div class="container header-container">
+      
+      <!-- Marca y Logotipo -->
+      <a href="#" class="brand-link" id="brandLink" aria-label="D-BEAUTY Inicio">
+        <img src="assets/logo.jpg" alt="Logotipo D-BEAUTY" class="brand-logo" onerror="this.style.display='none'">
+        <div class="brand-info">
+          <span class="brand-name" id="brandName">D-BEAUTY</span>
+          <span class="brand-tagline" id="brandTagline">Lashes, brows & more</span>
+        </div>
+      </a>
+
+      <!-- Acciones de Cabecera -->
+      <div class="header-actions">
+        <!-- Enlace rápido a WhatsApp -->
+        <a href="#" id="headerWaBtn" class="btn-wa-header" target="_blank" rel="noopener">
+          <svg class="icon-svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zM12.05 20.2c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.84-3.05-.2-.32a8.212 8.212 0 0 1-1.26-4.41c0-4.57 3.72-8.29 8.29-8.29 2.21 0 4.29.86 5.86 2.42 1.56 1.57 2.42 3.65 2.42 5.86 0 4.58-3.72 8.31-8.3 8.31zm4.55-6.21c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.25-1.48-1.39-1.73-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+          </svg>
+          <span class="btn-wa-text">Atención Directa</span>
+        </a>
+
+        <!-- Botón Abrir Carrito -->
+        <button id="openCartBtn" class="cart-trigger-btn" aria-label="Abrir Carrito y Cotizador">
+          <svg class="icon-svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+          </svg>
+          <span class="cart-label">Cotizador</span>
+          <span class="cart-badge" id="cartCountBadge">0</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Section (Sin kickers superfluos, tipografía pura y propuesta de valor) -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">Insumos y mobiliario profesional para tu salón y cabina</h1>
+        <p class="hero-subtitle">
+          Surtido integral para lashistas, micropigmentadoras, salones y spas. Catálogo transparente con precios de menudeo y cotizaciones especiales de mayoreo para dueñas de negocio vía WhatsApp.
+        </p>
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <svg class="icon-svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M13 2.05v3.03c3.39.49 6 3.39 6 6.92 0 .9-.18 1.75-.48 2.54l2.6 1.53c.56-1.24.88-2.62.88-4.07 0-5.18-3.95-9.45-9-9.95zM12 19c-3.87 0-7-3.13-7-7 0-3.53 2.61-6.43 6-6.92V2.05c-5.05.5-9 4.77-9 9.95 0 5.52 4.48 10 10 10 2.45 0 4.69-.89 6.43-2.36l-2.18-2.18c-1.2.96-2.67 1.54-4.25 1.54z"/>
+            </svg>
+            <span>Entregas locales el mismo día</span>
+          </div>
+          <div class="highlight-item">
+            <svg class="icon-svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+            </svg>
+            <span>Precios de mayoreo para negocio</span>
+          </div>
+          <div class="highlight-item">
+            <svg class="icon-svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+            </svg>
+            <span>Cotización inmediata por WhatsApp</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contenido Principal: Filtros y Catálogo -->
+  <main class="container main-content">
+
+    <!-- Navegación de Categorías -->
+    <nav class="categories-bar" aria-label="Categorías de productos">
+      <div class="categories-scroll" id="categoriesNav">
+        <button class="cat-pill active" data-category="all">
+          Todos los insumos <span class="cat-counter" id="totalCountBadge">0</span>
+        </button>
+        <!-- Categorías inyectadas por JS -->
+      </div>
+    </nav>
+
+    <!-- Barra de Búsqueda y Filtros de Precisión -->
+    <section class="toolbar-section" aria-label="Herramientas de búsqueda y filtrado">
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Buscar por producto, marca o código SKU..." aria-label="Buscar productos">
+        <button id="clearSearchBtn" class="clear-btn" style="display:none;" title="Limpiar búsqueda">&times;</button>
+      </div>
+
+      <div class="toolbar-filters">
+        <!-- Filtro por Marca -->
+        <select id="brandSelect" class="filter-select" aria-label="Filtrar por marca">
+          <option value="all">Todas las marcas</option>
+        </select>
+
+        <!-- Filtro por Stock -->
+        <select id="stockSelect" class="filter-select" aria-label="Filtrar por disponibilidad de inventario">
+          <option value="all">Todo el inventario</option>
+          <option value="disponible">Solo en existencia</option>
+          <option value="agotado">Agotados (pedido bajo demanda)</option>
+        </select>
+
+        <!-- Ordenamiento -->
+        <select id="sortSelect" class="filter-select" aria-label="Ordenar productos">
+          <option value="destacados">Destacados de cabina</option>
+          <option value="precio-asc">Precio: menor a mayor</option>
+          <option value="precio-desc">Precio: mayor a menor</option>
+          <option value="nombre-asc">Nombre alfabético A-Z</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Indicador de Resultados Activos -->
+    <div class="results-info" id="resultsInfo" aria-live="polite">
+      <span id="resultsCountText">Cargando catálogo...</span>
+    </div>
+
+    <!-- Cuadrícula de Productos -->
+    <section class="products-grid" id="productsGrid" aria-label="Lista de productos del catálogo">
+      <!-- Tarjetas renderizadas con JavaScript -->
+    </section>
+
+    <!-- Estado Vacío -->
+    <div class="empty-state" id="emptyState" style="display: none;">
+      <div class="empty-icon-wrap">
+        <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.75">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </div>
+      <h3>No encontramos insumos con ese criterio</h3>
+      <p>Verifica la ortografía o intenta buscar en otra categoría.</p>
+      <button class="btn btn-primary" id="resetFiltersBtn">Restablecer filtros</button>
+    </div>
+
+  </main>
+
+  <!-- Modal de Detalle de Producto -->
+  <div class="modal-backdrop" id="productModal" style="display: none;" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="closeModalBtn" aria-label="Cerrar ficha de producto">&times;</button>
+      <div class="modal-body" id="modalProductDetails">
+        <!-- Contenido inyectado por JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Drawer Lateral: Cotizador WhatsApp -->
+  <div class="cart-drawer-backdrop" id="cartBackdrop" style="display: none;"></div>
+  <aside class="cart-drawer" id="cartDrawer" role="dialog" aria-label="Cotizador y Carrito de Compras" aria-hidden="true">
+    <div class="cart-header">
+      <div class="cart-title-wrap">
+        <svg class="icon-svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+        </svg>
+        <h2 class="cart-title">Cotizador de Insumos</h2>
+      </div>
+      <button class="cart-close-btn" id="closeCartBtn" aria-label="Cerrar cotizador">&times;</button>
+    </div>
+
+    <!-- Lista de Artículos -->
+    <div class="cart-items" id="cartItemsList">
+      <!-- Inyectado por JS -->
+    </div>
+
+    <!-- Resumen y Enlace a WhatsApp -->
+    <div class="cart-footer" id="cartFooter">
+      
+      <!-- Selector de Tipo de Cliente -->
+      <div class="client-type-selector">
+        <label class="section-label">Modalidad de compra:</label>
+        <div class="client-toggle-group">
+          <label class="toggle-option">
+            <input type="radio" name="clientType" value="menudeo" checked id="radioMenudeo">
+            <span class="toggle-box">
+              <strong>Menudeo</strong>
+              <small>Precio de lista</small>
+            </span>
+          </label>
+          <label class="toggle-option">
+            <input type="radio" name="clientType" value="mayoreo" id="radioMayoreo">
+            <span class="toggle-box">
+              <strong>Mayoreo</strong>
+              <small>Dueña de Salón / Cabina</small>
+            </span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Datos de Salón y Destino -->
+      <div class="cart-form-group">
+        <label for="cartCustomerName" class="form-label">Tu nombre o nombre del salón:</label>
+        <input type="text" id="cartCustomerName" class="form-input" placeholder="Ej. Lash Boutique / Paulina Morales">
+      </div>
+
+      <div class="cart-form-group">
+        <label for="cartCustomerLocation" class="form-label">Ciudad / Municipio y Código Postal:</label>
+        <input type="text" id="cartCustomerLocation" class="form-input" placeholder="Ej. Monterrey, N.L. C.P. 64000">
+      </div>
+
+      <!-- Resumen de Costo -->
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>Subtotal estimado (menudeo):</span>
+          <strong id="cartSubtotal" class="tabular-nums">$0.00 MXN</strong>
+        </div>
+        <p class="summary-note" id="cartWholesaleNote" style="display:none;">
+          💼 <em>Al enviar tu mensaje se aplicará tu descuento preferencial de mayoreo según el volumen solicitado.</em>
+        </p>
+      </div>
+
+      <!-- Botón de Envío Directo a WhatsApp -->
+      <button class="btn btn-whatsapp-checkout" id="sendWhatsAppOrderBtn">
+        <svg class="icon-svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zM12.05 20.2c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.84-3.05-.2-.32a8.212 8.212 0 0 1-1.26-4.41c0-4.57 3.72-8.29 8.29-8.29 2.21 0 4.29.86 5.86 2.42 1.56 1.57 2.42 3.65 2.42 5.86 0 4.58-3.72 8.31-8.3 8.31zm4.55-6.21c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.25-1.48-1.39-1.73-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+        </svg>
+        <span>Enviar Cotización a WhatsApp</span>
+      </button>
+
+      <button class="btn-clear-cart" id="clearCartBtn">Vaciar lista de cotización</button>
+    </div>
+  </aside>
+
+  <!-- Botón Flotante Directo de WhatsApp -->
+  <a href="#" id="floatingWaBtn" class="floating-whatsapp-btn" target="_blank" rel="noopener" aria-label="Contactar a D-BEAUTY por WhatsApp" title="¿Dudas de stock? Chatea con nosotras">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zM12.05 20.2c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.84-3.05-.2-.32a8.212 8.212 0 0 1-1.26-4.41c0-4.57 3.72-8.29 8.29-8.29 2.21 0 4.29.86 5.86 2.42 1.56 1.57 2.42 3.65 2.42 5.86 0 4.58-3.72 8.31-8.3 8.31zm4.55-6.21c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.25-1.48-1.39-1.73-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+    </svg>
+    <span class="floating-tooltip">¿Dudas de cabina? Escríbenos</span>
+  </a>
+
+  <!-- Contenedor de Alertas Toast -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Pie de Página -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col">
+        <h3 class="footer-brand" id="footerBrand">D-BEAUTY</h3>
+        <p class="footer-tagline">Lashes, brows & more</p>
+        <p class="footer-desc" id="footerDesc">
+          Distribuidora y comercializadora de insumos de alta retención y mobiliario ergonómico para salones, estéticas y cabinas en México.
+        </p>
+      </div>
+      
+      <div class="footer-col">
+        <h4 class="footer-heading">Políticas de Entrega</h4>
+        <ul class="footer-list">
+          <li id="footerPolicyLocal"><strong>Local:</strong> Reparto el mismo día en pedidos confirmados antes de las 2:00 PM.</li>
+          <li id="footerPolicyNational"><strong>Nacional:</strong> Envíos express de 1 a 3 días hábiles.</li>
+          <li><strong>Mayoreo:</strong> Descuentos automáticos por volumen coordinados vía WhatsApp.</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Atención Directa</h4>
+        <ul class="footer-list">
+          <li id="footerHours"><strong>Horario:</strong> Lunes a Sábado: 9:00 AM - 7:00 PM</li>
+          <li id="footerLocation"><strong>Cobertura:</strong> Envíos a toda la República Mexicana</li>
+          <li><strong>Pago:</strong> Transferencia electrónica, depósito o contra-entrega local.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 D-BEAUTY. Todos los derechos reservados. Catálogo autónomo administrable en Markdown.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Principal -->
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,690 @@
+// Autogenerado para D-BEAUTY - Catálogo de productos y configuración
+window.__CATALOG_DATA__ = {
+  "version": "1.0.0",
+  "configuracion": {
+    "nombre_comercial": "D-BEAUTY",
+    "eslogan": "Lashes, brows & more",
+    "telefono_whatsapp": "5215512345678",
+    "telefono_whatsapp_formato": "+52 1 55 1234 5678",
+    "email_contacto": "contacto@dbeauty.mx",
+    "direccion_fisica": "Entregas locales rápidas & Envíos a todo México",
+    "horario_atencion": "Lunes a Sábado: 9:00 AM - 7:00 PM",
+    "politica_envio_local": "Entregas express en tu salón el mismo día en pedidos antes de las 2:00 PM.",
+    "politica_envio_nacional": "Envíos nacionales express vía paquetería (1 a 3 días hábiles).",
+    "mensaje_bienvenida": "Tu distribuidora aliada en insumos y mobiliario de belleza profesional.",
+    "banner_texto": "✨ Precios especiales de mayoreo para dueñas de salón • Entregas locales ágiles 📦",
+    "moneda": "MXN",
+    "simbolo_moneda": "$",
+    "sobre_nosotros": "# Sobre D-BEAUTY\n\nSomos distribuidores especializados en productos de alta gama y mobiliario ergonómico para profesionales de la belleza.\nCentralizamos tus compras para que recibas todo en un solo envío, con asesoría personalizada y atención prioritaria para salones, lashistas y estéticas."
+  },
+  "categorias": [
+    {
+      "slug": "brows",
+      "nombre": "Brows (Cejas)",
+      "total_productos": 3
+    },
+    {
+      "slug": "cabello",
+      "nombre": "Cabello & Cuidado Capilar",
+      "total_productos": 3
+    },
+    {
+      "slug": "lashing",
+      "nombre": "Lashing (Pestañas)",
+      "total_productos": 4
+    },
+    {
+      "slug": "mobiliario",
+      "nombre": "Mobiliario & Aparatología",
+      "total_productos": 3
+    },
+    {
+      "slug": "skincare",
+      "nombre": "Skincare Facial & Spa",
+      "total_productos": 3
+    },
+    {
+      "slug": "unas",
+      "nombre": "Uñas & Manicura",
+      "total_productos": 4
+    }
+  ],
+  "marcas": [
+    "D-Beauty Lux",
+    "D-Beauty Pro",
+    "D-Beauty Tech",
+    "DermaLab Pro",
+    "GlowBeam",
+    "Iconsign",
+    "KeraLiss Pro",
+    "Mia Secret",
+    "Nagaraku",
+    "Organic Nails",
+    "RefectoCil",
+    "Sky Glue",
+    "SunUV"
+  ],
+  "total_productos": 20,
+  "productos": [
+    {
+      "id": "BROW-001",
+      "nombre": "Kit Completo de Laminado de Cejas Iconsign Pro",
+      "categoria": "brows",
+      "marca": "Iconsign",
+      "precio_menudeo": 420,
+      "precio_mayoreo_sugerido": 340,
+      "piezas_minimo_mayoreo": 3,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1597225244660-1cd128c64284?w=600&auto=format&fit=crop&q=80",
+      "destacado": true,
+      "descripcion": "Kit profesional para planchado y laminado de cejas. Corrige cejas rebeldes y aporta volumen, dirección y efecto peinado de pluma de larga duración (hasta 6 semanas). Rinde de 15 a 20 aplicaciones.",
+      "especificaciones": [
+        {
+          "label": "Incluye",
+          "val": "Loción limpiadora (#1), Agente permanente (#2), Agente fijador (#3), Aceite nutricional (#4), Pegamento para cejas y microcepillos aplicadores"
+        },
+        {
+          "label": "Rendimiento",
+          "val": "15 a 20 servicios"
+        },
+        {
+          "label": "Duración del efecto",
+          "val": "4 a 6 semanas"
+        }
+      ],
+      "_archivo": "content/productos/brows/BROW-001-kit-laminado-iconsign.md"
+    },
+    {
+      "id": "BROW-002",
+      "nombre": "Tinte para Cejas y Pestañas RefectoCil Castaño Natural No. 3",
+      "categoria": "brows",
+      "marca": "RefectoCil",
+      "precio_menudeo": 260,
+      "precio_mayoreo_sugerido": 210,
+      "piezas_minimo_mayoreo": 4,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Tinte profesional de origen austriaco líder a nivel mundial. Pigmentación intensa, homogénea y duradera que define la mirada cubriendo 100% de canas y vello claro.",
+      "especificaciones": [
+        {
+          "label": "Tono",
+          "val": "Castaño Natural (No. 3)"
+        },
+        {
+          "label": "Contenido",
+          "val": "Tubo de 15 ml (aproximadamente 30 aplicaciones)"
+        },
+        {
+          "label": "Duración en vello",
+          "val": "Hasta 6 semanas"
+        },
+        {
+          "label": "A prueba de agua y manchas",
+          "val": "Sí"
+        }
+      ],
+      "_archivo": "content/productos/brows/BROW-002-tinte-refectocil-castano.md"
+    },
+    {
+      "id": "BROW-003",
+      "nombre": "Pasta Blanca para Diseño y Visagismo de Cejas (Mapping Paste)",
+      "categoria": "brows",
+      "marca": "D-Beauty Pro",
+      "precio_menudeo": 130,
+      "precio_mayoreo_sugerido": 95,
+      "piezas_minimo_mayoreo": 5,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Pasta hipoalergénica de alta densidad ideal para trazar líneas de simetría antes de aplicar henna, tinte o microblading. Crea una barrera que previene escurrimientos y asegura trazos limpios e impecables.",
+      "especificaciones": [
+        {
+          "label": "Contenido",
+          "val": "Tarro de 15 g"
+        },
+        {
+          "label": "Color",
+          "val": "Blanco puro opaco"
+        },
+        {
+          "label": "Textura",
+          "val": "Suave y cremosa, fácil de retirar con agua micelar o paño húmedo"
+        }
+      ],
+      "_archivo": "content/productos/brows/BROW-003-pasta-diseno-visagismo.md"
+    },
+    {
+      "id": "CAB-001",
+      "nombre": "Tratamiento Botox Capilar Reestructurante Profundo 1 Litro",
+      "categoria": "cabello",
+      "marca": "KeraLiss Pro",
+      "precio_menudeo": 650,
+      "precio_mayoreo_sugerido": 520,
+      "piezas_minimo_mayoreo": 2,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=600&auto=format&fit=crop&q=80",
+      "destacado": true,
+      "descripcion": "Fórmula intensiva con aminoácidos, ácido hialurónico y colágeno hidrolizado diseñada para sellar cutículas abiertas, eliminar el frizz y restaurar cabello procesado o decolorado.",
+      "especificaciones": [
+        {
+          "label": "Presentación",
+          "val": "Botella de 1,000 ml"
+        },
+        {
+          "label": "Beneficio",
+          "val": "Reducción de volumen al 80%, brillo espejo y suavidad sedosa"
+        },
+        {
+          "label": "Aplicaciones estimadas",
+          "val": "20 a 25 cabelleras medias"
+        }
+      ],
+      "_archivo": "content/productos/cabello/CAB-001-botox-capilar-1l.md"
+    },
+    {
+      "id": "CAB-002",
+      "nombre": "Kit Keratina Brasileña Alaciado Orgánico Sin Formol 500ml",
+      "categoria": "cabello",
+      "marca": "KeraLiss Pro",
+      "precio_menudeo": 890,
+      "precio_mayoreo_sugerido": 740,
+      "piezas_minimo_mayoreo": 2,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1560869713-7d0a29430803?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Alaciado progresivo termodinámico libre de vapores tóxicos y sin formol. Compatible con cabellos teñidos y decolorados. Deja el cabello lacio natural con movimiento y brillo radiante hasta por 4 meses.",
+      "especificaciones": [
+        {
+          "label": "Incluye",
+          "val": "Shampoo Antirresiduos Paso 1 (250ml) + Tratamiento Alaciador Paso 2 (500ml)"
+        },
+        {
+          "label": "Durabilidad",
+          "val": "3 a 5 meses con cuidados posteriores adecuados"
+        },
+        {
+          "label": "Aroma",
+          "val": "Frutos rojos (sin olores irritantes)"
+        }
+      ],
+      "_archivo": "content/productos/cabello/CAB-002-keratina-organica-500ml.md"
+    },
+    {
+      "id": "CAB-003",
+      "nombre": "Protector Térmico Antifrizz Argán & Keratina 250ml",
+      "categoria": "cabello",
+      "marca": "D-Beauty Pro",
+      "precio_menudeo": 220,
+      "precio_mayoreo_sugerido": 175,
+      "piezas_minimo_mayoreo": 4,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Bifase protector contra altas temperaturas de planchas, tenazas y secadoras (hasta 230°C / 450°F). Crea una microcapa protectora que retiene la humedad interna del cabello sin dejar residuo pesado.",
+      "especificaciones": [
+        {
+          "label": "Contenido",
+          "val": "Frasco con atomizador de 250 ml"
+        },
+        {
+          "label": "Protección térmica",
+          "val": "Hasta 230°C / 450°F"
+        },
+        {
+          "label": "Beneficio extra",
+          "val": "Filtro UV contra rayos solares y agentes contaminantes"
+        }
+      ],
+      "_archivo": "content/productos/cabello/CAB-003-protector-termico-250ml.md"
+    },
+    {
+      "id": "LASH-001",
+      "nombre": "Adhesivo Sky Zone Tapa Roja 5ml",
+      "categoria": "lashing",
+      "marca": "Sky Glue",
+      "precio_menudeo": 320,
+      "precio_mayoreo_sugerido": 260,
+      "piezas_minimo_mayoreo": 3,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop&q=80",
+      "destacado": true,
+      "descripcion": "Adhesivo profesional de secado rápido y fijación ultra duradera para aplicaciones de extensiones de pestañas pelo a pelo y volumen. Fórmula con baja emisión de vapores para mayor comodidad de la clienta.",
+      "especificaciones": [
+        {
+          "label": "Contenido",
+          "val": "5 ml"
+        },
+        {
+          "label": "Tiempo de secado",
+          "val": "1 a 2 segundos"
+        },
+        {
+          "label": "Retención",
+          "val": "5 a 7 semanas"
+        },
+        {
+          "label": "Humedad recomendada",
+          "val": "45% - 65%"
+        },
+        {
+          "label": "Temperatura ideal",
+          "val": "19°C - 24°C"
+        },
+        {
+          "label": "Nivel",
+          "val": "Profesional intermedio / avanzado"
+        }
+      ],
+      "_archivo": "content/productos/lashing/LASH-001-adhesivo-sky.md"
+    },
+    {
+      "id": "LASH-002",
+      "nombre": "Blister Nagaraku Curvatura D Mix (7-15mm)",
+      "categoria": "lashing",
+      "marca": "Nagaraku",
+      "precio_menudeo": 180,
+      "precio_mayoreo_sugerido": 145,
+      "piezas_minimo_mayoreo": 5,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1583001931096-959e9a1a6223?w=600&auto=format&fit=crop&q=80",
+      "destacado": true,
+      "descripcion": "Fibras sintéticas premium de acabado mate aterciopelado. Excelente elasticidad y retención de curvatura. Caja mixta perfecta para cabina con longitudes desde 7mm hasta 15mm.",
+      "especificaciones": [
+        {
+          "label": "Curvatura",
+          "val": "D"
+        },
+        {
+          "label": "Grosor",
+          "val": "0.07 mm"
+        },
+        {
+          "label": "Longitudes",
+          "val": "7mm a 15mm (16 líneas mixtas)"
+        },
+        {
+          "label": "Material",
+          "val": "Fibra de PBT de alta calidad coreana"
+        },
+        {
+          "label": "Color",
+          "val": "Negro azabache mate sin reflejos azules"
+        }
+      ],
+      "_archivo": "content/productos/lashing/LASH-002-blister-nagaraku-mix.md"
+    },
+    {
+      "id": "LASH-003",
+      "nombre": "Pinza Curva Tornasol de Alta Precisión para Volumen Ruso",
+      "categoria": "lashing",
+      "marca": "D-Beauty Pro",
+      "precio_menudeo": 240,
+      "precio_mayoreo_sugerido": 190,
+      "piezas_minimo_mayoreo": 3,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Pinza ergonómica calibrada a mano con cierre milimétrico hermético en la punta (\"sweet spot\" amplio). Diseñada para formar abanicos de volumen ruso y megavolumen con el mínimo esfuerzo de muñeca.",
+      "especificaciones": [
+        {
+          "label": "Material",
+          "val": "Acero inoxidable quirúrgico templado"
+        },
+        {
+          "label": "Acabado",
+          "val": "Tornasol arcoíris electrochapado"
+        },
+        {
+          "label": "Largo",
+          "val": "12 cm"
+        },
+        {
+          "label": "Alineación",
+          "val": "Cierre 100% plano sin fugas de fibra"
+        }
+      ],
+      "_archivo": "content/productos/lashing/LASH-003-pinza-volumen-tornasol.md"
+    },
+    {
+      "id": "LASH-004",
+      "nombre": "Super Bonder Sellador Instantáneo de Adhesivo 15ml",
+      "categoria": "lashing",
+      "marca": "D-Beauty Pro",
+      "precio_menudeo": 290,
+      "precio_mayoreo_sugerido": 230,
+      "piezas_minimo_mayoreo": 3,
+      "estatus": "agotado",
+      "imagen_url": "https://images.unsplash.com/photo-1608248597359-0091ff73a906?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Solución aceleradora de polimerización que sella instantáneamente los vapores del cianoacrilato sin curado por choque. Permite que la clienta moje sus pestañas el mismo día sin riesgo de irritación ni pérdida prematura.",
+      "especificaciones": [
+        {
+          "label": "Contenido",
+          "val": "15 ml con cuentagotas de precisión"
+        },
+        {
+          "label": "Tiempo de curado",
+          "val": "3 minutos tras la aplicación"
+        },
+        {
+          "label": "Beneficio extra",
+          "val": "Aumenta la flexibilidad y vida útil del adhesivo hasta un 30%"
+        }
+      ],
+      "_archivo": "content/productos/lashing/LASH-004-super-bonder-15ml.md"
+    },
+    {
+      "id": "MOB-001",
+      "nombre": "Camilla Plegable Portátil Ergonómica Rosa Pastel para Spa y Pestañas",
+      "categoria": "mobiliario",
+      "marca": "D-Beauty Lux",
+      "precio_menudeo": 2850,
+      "precio_mayoreo_sugerido": 2390,
+      "piezas_minimo_mayoreo": 1,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
+      "destacado": true,
+      "descripcion": "Camilla profesional portátil diseñada para máxima comodidad en sesiones prolongadas de pestañas, cejas, masajes y micropigmentación. Estructura de aleación ligera reforzada con tapicería rosa pastel resistente a líquidos y aceites.",
+      "especificaciones": [
+        {
+          "label": "Dimensiones abierta",
+          "val": "186 cm x 70 cm x (altura ajustable de 62 a 86 cm)"
+        },
+        {
+          "label": "Capacidad de carga",
+          "val": "Soporta hasta 220 kg de peso dinámico"
+        },
+        {
+          "label": "Acolchado",
+          "val": "Espuma viscoelástica de alta densidad de 6 cm de espesor"
+        },
+        {
+          "label": "Accesorios incluidos",
+          "val": "Cabezal ergonómico articulado, descansabrazos laterales y maletín de transporte con correa"
+        }
+      ],
+      "_archivo": "content/productos/mobiliario/MOB-001-camilla-plegable-rosa.md"
+    },
+    {
+      "id": "MOB-002",
+      "nombre": "Lámpara Media Luna (Half Moon) LED Bicolor con Soporte para Celular",
+      "categoria": "mobiliario",
+      "marca": "GlowBeam",
+      "precio_menudeo": 2100,
+      "precio_mayoreo_sugerido": 1750,
+      "piezas_minimo_mayoreo": 2,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&auto=format&fit=crop&q=80",
+      "destacado": true,
+      "descripcion": "La lámpara definitiva para aplicadoras de pestañas, micropigmentadoras y esteticistas. Su arco semicircular de 180° elimina sombras faciales por completo, brindando iluminación uniforme sin cansar la vista ni generar calor excesivo.",
+      "especificaciones": [
+        {
+          "label": "Forma",
+          "val": "Arco Media Luna de 28 pulgadas"
+        },
+        {
+          "label": "Temperatura de color",
+          "val": "3,200K (cálida) a 5,600K (fría) regulable al 100%"
+        },
+        {
+          "label": "Brillo",
+          "val": "0% a 100% sin parpadeo (flicker-free para fotos y videos de TikTok/Instagram)"
+        },
+        {
+          "label": "Base",
+          "val": "Base plana ultradelgada y estable que entra fácilmente bajo cualquier camilla"
+        },
+        {
+          "label": "Extras",
+          "val": "Brazo para sostener smartphone incluido"
+        }
+      ],
+      "_archivo": "content/productos/mobiliario/MOB-002-lampara-media-luna-half-moon.md"
+    },
+    {
+      "id": "MOB-003",
+      "nombre": "Carrito Auxiliar de Servicio 3 Niveles con Ruedas de Silicona",
+      "categoria": "mobiliario",
+      "marca": "D-Beauty Lux",
+      "precio_menudeo": 980,
+      "precio_mayoreo_sugerido": 790,
+      "piezas_minimo_mayoreo": 2,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Carrito organizador metálico resistente para cabina o salón. Bandejas profundas de polipropileno con orificios de ventilación y ruedas de silicona de 360° para desplazamiento ultrasilencioso sin rayar pisos.",
+      "especificaciones": [
+        {
+          "label": "Material",
+          "val": "Estructura de acero al carbono con bandejas anticorrosión"
+        },
+        {
+          "label": "Dimensiones",
+          "val": "86 cm alto x 42 cm ancho x 35 cm profundidad"
+        },
+        {
+          "label": "Ruedas",
+          "val": "4 ruedas giratorias de silicona (2 con freno de bloqueo)"
+        },
+        {
+          "label": "Colores disponibles",
+          "val": "Rosa nude, Blanco brillante y Negro mate"
+        }
+      ],
+      "_archivo": "content/productos/mobiliario/MOB-003-carrito-auxiliar-3-niveles.md"
+    },
+    {
+      "id": "SKIN-001",
+      "nombre": "Espátula Ultrasónica de Limpieza Profunda y Peeling Facial",
+      "categoria": "skincare",
+      "marca": "D-Beauty Tech",
+      "precio_menudeo": 620,
+      "precio_mayoreo_sugerido": 490,
+      "piezas_minimo_mayoreo": 2,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&auto=format&fit=crop&q=80",
+      "destacado": true,
+      "descripcion": "Dispositivo de aparatología portátil que genera vibraciones de alta frecuencia (24,000 Hz) para extraer puntos negros, exceso de sebo y células muertas sin maltratar ni enrojecer la dermis.",
+      "especificaciones": [
+        {
+          "label": "Frecuencia de vibración",
+          "val": "24 kHz"
+        },
+        {
+          "label": "Modos de trabajo",
+          "val": "Limpieza profunda (Peeling), Infusión de activos (Ion+) y Levantamiento reafirmante (Lifting EMS)"
+        },
+        {
+          "label": "Batería",
+          "val": "Carga USB de larga duración"
+        },
+        {
+          "label": "Cabezal",
+          "val": "Acero inoxidable de grado médico 100% esterilizable"
+        }
+      ],
+      "_archivo": "content/productos/skincare/SKIN-001-espatula-ultrasonica.md"
+    },
+    {
+      "id": "SKIN-002",
+      "nombre": "Suero Facial Ácido Hialurónico 2% Puro + B5 Grado Cabina 100ml",
+      "categoria": "skincare",
+      "marca": "DermaLab Pro",
+      "precio_menudeo": 340,
+      "precio_mayoreo_sugerido": 270,
+      "piezas_minimo_mayoreo": 3,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Serum concentrado de hidratación multicapa para cabina facial. Combina ácido hialurónico de alto, medio y bajo peso molecular con provitamina B5 para rellenar líneas finas y calmar la piel tras procedimientos estéticos.",
+      "especificaciones": [
+        {
+          "label": "Presentación",
+          "val": "Frasco con gotero dosificador de 100 ml"
+        },
+        {
+          "label": "Ingredientes clave",
+          "val": "Ácido Hialurónico 2%, D-Pantenol (Vitamina B5), Extracto de Manzanilla"
+        },
+        {
+          "label": "Tipo de piel",
+          "val": "Apto para todo tipo de piel, incluso sensibles o con rosácea"
+        }
+      ],
+      "_archivo": "content/productos/skincare/SKIN-002-suero-acido-hialuronico-100ml.md"
+    },
+    {
+      "id": "SKIN-003",
+      "nombre": "Mascarilla Hidroplástica Calmante de Pétalos de Rosa & Colágeno 500g",
+      "categoria": "skincare",
+      "marca": "DermaLab Pro",
+      "precio_menudeo": 280,
+      "precio_mayoreo_sugerido": 220,
+      "piezas_minimo_mayoreo": 3,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1567928805192-d35d641494b8?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Mascarilla en polvo peel-off de alginato marino con pétalos de rosa deshidratados. Calma instantáneamente, desinflama y deja un efecto glow tensor en tratamientos faciales de spa y cabina.",
+      "especificaciones": [
+        {
+          "label": "Contenido neto",
+          "val": "500 gramos (rinde de 18 a 22 mascarillas faciales completas)"
+        },
+        {
+          "label": "Modo de preparación",
+          "val": "Mezclar 25g de polvo con 50ml de agua purificada o tónico de rosas hasta formar una pasta homogénea"
+        },
+        {
+          "label": "Tiempo de fraguado",
+          "val": "15 a 20 minutos"
+        },
+        {
+          "label": "Retiro",
+          "val": "Desprendimiento en una sola pieza (Peel-off)"
+        }
+      ],
+      "_archivo": "content/productos/skincare/SKIN-003-mascarilla-hidroplastica-rosas-500g.md"
+    },
+    {
+      "id": "UNA-001",
+      "nombre": "Monómero Bajo Olor Organic Nails 8oz (240ml)",
+      "categoria": "unas",
+      "marca": "Organic Nails",
+      "precio_menudeo": 390,
+      "precio_mayoreo_sugerido": 325,
+      "piezas_minimo_mayoreo": 2,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=600&auto=format&fit=crop&q=80",
+      "destacado": true,
+      "descripcion": "Líquido monómero con estabilizadores de color que evitan el amarillamiento de las uñas acrílicas. Fórmula especial de bajo olor ideal para salones cerrados o cabinas con ventilación estándar.",
+      "especificaciones": [
+        {
+          "label": "Presentación",
+          "val": "Botella de 8 oz (240 ml)"
+        },
+        {
+          "label": "Tiempo de fraguado",
+          "val": "Medio (ideal para moldear sin prisa)"
+        },
+        {
+          "label": "Fórmula",
+          "val": "No amarillea, máxima adherencia sin levantamientos prematuros"
+        }
+      ],
+      "_archivo": "content/productos/unas/UNA-001-monomero-organic-nails.md"
+    },
+    {
+      "id": "UNA-002",
+      "nombre": "Polvo Acrílico Cover Peach Mia Secret 2oz",
+      "categoria": "unas",
+      "marca": "Mia Secret",
+      "precio_menudeo": 210,
+      "precio_mayoreo_sugerido": 170,
+      "piezas_minimo_mayoreo": 4,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Polvo acrílico de alta consistencia y autonivelación para extensiones de uñas y técnica de reversa. Tono durazno nude universal que disimula imperfecciones y alarga visualmente la almendra de la uña natural.",
+      "especificaciones": [
+        {
+          "label": "Contenido",
+          "val": "2 oz (59 g)"
+        },
+        {
+          "label": "Tono",
+          "val": "Cover Peach (nude cálido natural)"
+        },
+        {
+          "label": "Textura",
+          "val": "Micro pulverizado ultrafino sin grumos"
+        }
+      ],
+      "_archivo": "content/productos/unas/UNA-002-acrilico-cover-peach.md"
+    },
+    {
+      "id": "UNA-003",
+      "nombre": "Lámpara UV/LED Sun X5 Plus 54W con Sensor Inteligente",
+      "categoria": "unas",
+      "marca": "SunUV",
+      "precio_menudeo": 480,
+      "precio_mayoreo_sugerido": 390,
+      "piezas_minimo_mayoreo": 2,
+      "estatus": "disponible",
+      "imagen_url": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&auto=format&fit=crop&q=80",
+      "destacado": true,
+      "descripcion": "Lámpara profesional para curado rápido y uniforme de gel semipermanente, polygel, rubber base y geles de construcción. Cuenta con 36 diodos estratégicamente distribuidos sin puntos ciegos.",
+      "especificaciones": [
+        {
+          "label": "Potencia",
+          "val": "54 Watts (doble fuente de luz 365+405nm)"
+        },
+        {
+          "label": "Temporizadores",
+          "val": "10s, 30s, 60s y modo 99s bajo calor (Low Heat)"
+        },
+        {
+          "label": "Base",
+          "val": "Removible magnética para servicios de pedicura"
+        },
+        {
+          "label": "Pantalla",
+          "val": "Display digital LCD"
+        }
+      ],
+      "_archivo": "content/productos/unas/UNA-003-lampara-sun-x5-plus.md"
+    },
+    {
+      "id": "UNA-004",
+      "nombre": "Drill Pulidor Profesional para Uñas 35,000 RPM Recargable",
+      "categoria": "unas",
+      "marca": "D-Beauty Pro",
+      "precio_menudeo": 1150,
+      "precio_mayoreo_sugerido": 950,
+      "piezas_minimo_mayoreo": 2,
+      "estatus": "agotado",
+      "imagen_url": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=600&auto=format&fit=crop&q=80",
+      "destacado": false,
+      "descripcion": "Torno esmeril recargable portátil de alta velocidad y cero vibración en la pieza de mano. Ideal para retiro seguro de gel, acrílico y manicura rusa en seco.",
+      "especificaciones": [
+        {
+          "label": "Velocidad máxima",
+          "val": "35,000 RPM regulables con perilla de precisión"
+        },
+        {
+          "label": "Batería",
+          "val": "Recargable de litio (hasta 8 horas de uso continuo)"
+        },
+        {
+          "label": "Rotación",
+          "val": "Doble sentido de giro (Forward / Reverse)"
+        },
+        {
+          "label": "Motor",
+          "val": "Brushless silencioso con disipación de calor"
+        }
+      ],
+      "_archivo": "content/productos/unas/UNA-004-drill-pulidor-35000rpm.md"
+    }
+  ]
+};
