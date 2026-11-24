@@ -5,3 +5,15 @@ __pycache__/
 *.py[cod]
 test.txt
 assets/catalog.json
+
+# Agentes, contexto y documentos de entrevista
+.agent/
+.agents/
+_agent/
+_agents/
+CONTEXT.md
+DESIGN.md
+PRODUCT.md
+GEMINI.md
+AGENTS.md
+CLAUDE.md
